@@ -40,25 +40,25 @@ const bool dbg = false;
 const bool mtt = true;
 
 void solve() {
-	
+  
 }
 
 signed main() {
-	ios_base::sync_with_stdio(false);
-	cin.tie(0);
+  ios_base::sync_with_stdio(false);
+  cin.tie(0);
 
-	int t = 1;
-	if (mtt) {
-		cin >> t;
-	}
-	for (int i = 1; i <= t; ++i) {
-		if (dbg) {
-			pr("Testcase #");
-			prl(i);
-		}
-		solve();
-		if (dbg) {
-			prl;
-		}
-	}
+  int t = 1;
+  if (mtt) {
+    cin >> t;
+  }
+  for (int i = 1; i <= t; ++i) {
+    if (dbg) {
+      pr("Testcase #");
+      prl(i);
+    }
+    solve();
+    if (dbg) {
+      prl;
+    }
+  }
 }
