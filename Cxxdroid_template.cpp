@@ -30,9 +30,9 @@ using namespace std;
 #define bk back()
 #define lb lower_bound
 #define ub upper_bound
-#define pr(x) cout << (x) << ' ';
-#define prl(x) cout << (x) << '\n';
-#define prl cout << '\n';
+#define pr(x) cout << (x) << ' '
+#define prl(x) cout << (x) << '\n'
+#define prnl cout << '\n'
 #define prly prl("YES")
 #define prln prl("NO")
 
@@ -58,7 +58,7 @@ signed main() {
     }
     solve();
     if (dbg) {
-      prl;
+      prnl;
     }
   }
 }
