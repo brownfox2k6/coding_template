@@ -38,6 +38,7 @@ using namespace std;
 #define prly prl("YES")
 #define prln prl("NO")
 
+const bool prlsolve = 0;
 const bool dbg = 0;
 const bool mtt = 1;
 
@@ -58,7 +59,11 @@ signed main() {
       pr("Testcase #");
       prl(i);
     }
-    solve();
+    if (prlsolve) {
+      prl(solve());
+    } else {
+      solve();
+    }
     if (dbg) {
       prnl;
     }
