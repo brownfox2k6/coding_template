@@ -50,14 +50,14 @@ signed main() {
   ios_base::sync_with_stdio(false);
   cin.tie(0);
 
-  int t = 1;
+  int _TC = 1;
   if (mtt) {
-    cin >> t;
+    cin >> _TC;
   }
-  for (int i = 1; i <= t; ++i) {
+  for (int _T = 1; i <= _TC; ++_T) {
     if (dbg) {
       pr("Testcase #");
-      prl(i);
+      prl(_T);
     }
     if (prlsolve) {
       prl(solve());
