@@ -15,12 +15,13 @@
 #include <queue>
 using namespace std;
 
+#define int int64_t
 #define endl '\n'
 #define f first
 #define s second
 #define sz(x) int((x).size())
 #define bg begin
-#define all(x) (x).bg(), x.end()
+#define all(x) (x).bg(), (x).end()
 #define rsz resize
 #define ins insert
 #define pb push_back
@@ -30,14 +31,15 @@ using namespace std;
 #define bk back()
 #define lb lower_bound
 #define ub upper_bound
+#define get(x) cin >> (x)
 #define pr(x) cout << (x) << ' '
 #define prl(x) cout << (x) << '\n'
 #define prnl cout << '\n'
 #define prly prl("YES")
 #define prln prl("NO")
 
-const bool dbg = false;
-const bool mtt = true;
+const bool dbg = 0;
+const bool mtt = 1;
 
 void solve() {
   
